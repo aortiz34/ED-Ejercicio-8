@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Inventario de productos</h2>
+    <form>
+        <div>
+            <label>Nombre:</label>
+            <input id="textName" type="text">
+        </div>
+        <div>
+            <label>Código:</label>
+            <input id="numberCode" type="number" >
+        </div>
+        <div>
+            <label>Cantidad:</label>
+            <input id="numberQuantity" type="number">
+        </div>
+        <div>
+            <label>Costo:</label>
+            <input id="numberCost" type="number">
+        </div>
+        <div>
+            <label>Posición:</label>
+            <input id="numberPosition" type="number">
+        </div>
+        <div>
+            <input id="btnAdd" type="button" value="Agregar">
+            <input id="btnDelete" type="button" value="Eliminar">
+            <input id="btnSearch" type="button" value="Buscar">
+            <input id="btnList" type="button" value="Listar">
+            <input id="btnListInv" type="button" value="Listar Inverso">
+            <input id="btnInsert" type="button" value="Insertar">
+        </div>
+    </form>
+    <h3>Movimientos:</h3>
+    <div id="detail"></div>
+    <script src="main.js" type="module"></script>
+</body>
+</html>
