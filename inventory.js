@@ -100,7 +100,7 @@ export default class Inventory{
 
     insertProduct(nuevo,pos){
         if(this.searchProduct(nuevo.getCode()) == null){
-            if (this._inicio == null || pos == 1) {
+            if (pos == 1) {
                 let temp = this._inicio;
                 this._inicio = nuevo;
                 this._inicio.setNext(temp);
